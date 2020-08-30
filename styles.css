@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background:hsl(210, 36%, 90%);
+    color:hs1(209,60%,30%);
+    line-height: 1.2rem;
+    font-size: 0.875rem;
+
+}li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  nav{
+      background: #fff;
+      height: 3rem;
+      display: grid;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  .navbar{
+      width: 90vw;
+      max-width: 600px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .navbar li{
+      display: inline-block;
+  }
+
+  .navbar a{
+      text-transform: capitalize;
+      font-weight: 700;
+  font-size: 1rem;
+  color:hsl(205, 86%, 17%);
+  letter-spacing: 0.1rem;
+  margin-right: 1rem;
+  }
+  .navbar h3{
+      margin-bottom: 0;
+      margin-left: 19px;
+      color:darkblue;
+      
+  }
+  nav a:hover{
+      color:hsl(205, 86%, 17%);
+  }
+
+   .color{
+       color:hsl(205, 78%, 60%);
+   }
+
+  .container{
+      text-align: center;
+  }
+  .container h2{
+      background-color: black;
+      color: #fff;
+      padding: 1rem;
+      margin-bottom: 10px;
+      border-radius: 9px;
+  }
+  .btn-sel{
+    font-family:"Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition:all 0.3s linear;
+    
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem
+
+  }
+
+  .btn-sel:hover{
+      color:#fff;
+      background-color: black;
+  }
